@@ -1,0 +1,16 @@
+﻿<Window x:Class="Switch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Switch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Label Margin="100 50"  >Geef een getal in liefst 1,2,3,4,5 maar geef ook is iets anders in</Label>
+        <TextBox HorizontalAlignment="Center" Margin="0 50" Width="50"  x:Name="Input" BorderBrush="Blue"></TextBox>
+        <Button x:Name="Controlle" Click="Controlle_Click" Content="Click om te controleren" Margin="50"></Button>
+        <TextBlock x:Name="Output" Margin="50" Height="100" TextWrapping="Wrap"></TextBlock>
+
+    </StackPanel>
+</Window>

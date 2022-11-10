@@ -1,0 +1,18 @@
+﻿<Window x:Class="Methodes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Methodes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="566" Width="800">
+    <StackPanel Orientation="Vertical" Margin="50">
+        <Button x:Name="EersteHallo" Content="Click hier om hallo te doen verschijnen" Width="250" Click="LaatHalloVerschijnen_Click"></Button>
+        <Label Margin="0 20" Width="350">Hier onder ga je de text hallo krijgen als je op de button klickt</Label>
+        <Label x:Name="Label1" Width="150" Margin="0 20"></Label>
+        <Button x:Name="TweedeHallo" Content="Als je hier klickt verschijnt hallo ook hier onder" Width="350" Margin="0 20" Click="TweedeHallo_Click"></Button>
+        <Label x:Name="Label2" Width="150" Margin="0 20"></Label>
+        <Button x:Name="Verander" Click="Verander_Click" Margin="0 20" Width="200">Verander de tekst in de labels</Button>
+        <Button x:Name="Verwijder" Click="Verwijder_Click" Margin="0 20" Content="Verwijder tekst" Width="150"></Button>
+    </StackPanel>
+</Window>

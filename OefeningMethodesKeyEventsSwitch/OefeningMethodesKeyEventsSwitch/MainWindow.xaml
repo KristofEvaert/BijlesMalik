@@ -1,0 +1,19 @@
+﻿<Window x:Class="OefeningMethodesKeyEventsSwitch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OefeningMethodesKeyEventsSwitch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="-3,-4,3,4">
+            <TextBox x:Name="KwadraatInput" Margin="25" FontSize="25" Width="50" Height="20"></TextBox>
+            <Button Margin="25" FontSize="20" Width="200" Height="40">Geef het kwadraat</Button>
+            <Label>Ik wil hieronder niet zien de waarde van het kwadraat maar of het een leuk getal is of niet ik vind 16 leuk maar 25 leuker</Label>
+            <Label>ook ben ik een beetje ne luie mens en haat ik het om op een knopje te moeten klikken dus geen butten klik</Label>
+            <TextBlock x:Name="KwadraatOutput" Margin="25" FontSize="25" ></TextBlock>
+
+        </StackPanel>
+    </Grid>
+</Window>
